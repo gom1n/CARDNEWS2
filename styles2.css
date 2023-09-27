@@ -1,0 +1,21 @@
+/* 페이지 2 스타일 */
+.swiper-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+#image {
+    width: 500px;
+    height: 500px;
+}
