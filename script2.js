@@ -25,3 +25,17 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+// 다음화 보러 가기 버튼
+function goToPage2(htmlLink) {
+    window.location.href = `${htmlLink}`;
+}
+
+// 뒤로가기
+function goBack() {
+    window.history.back();
+}
+
+// 메인으로 가기
+function goMain() {
+    window.location.href = 'index.html';
+}
