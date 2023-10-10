@@ -48,7 +48,7 @@ body {
 
 .button-container {
     position: relative;
-    margin: 30px 0px 10px 0px;
+    margin: 10px 0px 60px 0px;
     width: 35%;
     display: flex;
     text-align: center;
@@ -57,7 +57,7 @@ body {
 }
 
 #next-button {
-    margin: 10px 0px 60px 0px;
+    margin: 30px 0px 10px 0px;
     background-color: #4380DE;
     border: 3px solid #4380DE;
 
@@ -94,7 +94,7 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     #image {
         width: 80%;
         height: auto;
@@ -103,7 +103,7 @@ body {
 
     .button-container {
         position: relative;
-        margin: 30px 0px 10px 0px;
+        margin: 10px 0px 50px 5px;
         width: 80%;
         display: flex;
         text-align: center;
@@ -112,7 +112,7 @@ body {
     }
     
     #next-button {
-        margin: 10px 0px 50px 5px;
+        margin: 30px 0px 10px 0px;
         background-color: #4380DE;
         border: 3px solid #4380DE;
     
